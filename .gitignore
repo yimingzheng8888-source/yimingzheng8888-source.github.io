@@ -1,0 +1,5 @@
+tools/docx-renderer/node_modules/
+tools/docx-renderer/output/
+source/.next/
+source/dist/
+source/node_modules/

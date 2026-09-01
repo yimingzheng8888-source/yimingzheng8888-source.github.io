@@ -1,0 +1,13 @@
+{
+  "name": "ymg-docx-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "docx-preview": "0.4.0",
+    "playwright-core": "1.62.1"
+  }
+}

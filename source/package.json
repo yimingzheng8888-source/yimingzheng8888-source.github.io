@@ -1,0 +1,24 @@
+{
+  "name": "ymg-yacht-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "postbuild": "node scripts/export-static.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "vinext": "1.0.0-beta.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.4",
+    "@vitejs/plugin-rsc": "^0.5.30",
+    "react-server-dom-webpack": "^19.2.8",
+    "vite": "^8.1.5"
+  }
+}
