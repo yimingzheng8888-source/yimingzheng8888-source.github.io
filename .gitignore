@@ -1,5 +1,8 @@
 tools/docx-renderer/node_modules/
 tools/docx-renderer/output/
+.playwright-cli/
+%USERP~1/
+output/playwright/
 source/.next/
 source/dist/
 source/node_modules/
